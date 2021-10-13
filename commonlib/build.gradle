@@ -28,5 +28,21 @@ android {
 
 dependencies {
     implementation 'androidx.appcompat:appcompat:1.3.0'
-    implementation rootProject.ext.dependencies["gson"]
+    api rootProject.ext.dependencies["gson"]
+    api rootProject.ext.dependencies["converter-gson"]
+
+    // Okhttp库
+    api rootProject.ext.dependencies["okhttp3"]
+    api rootProject.ext.dependencies["okhttp_interceptor"]
+
+    //请求cookie持久化
+    api rootProject.ext.dependencies["PersistentCookieJar"]
+
+    // 网络请求Retrofit2库
+    api rootProject.ext.dependencies["retrofit2"]
+
+    /*RxJava    RxAndroid   */
+    api rootProject.ext.dependencies["rxjava"]
+    api rootProject.ext.dependencies["rxandroid"]
+    api rootProject.ext.dependencies["retrofit2:adapter"]
 }
