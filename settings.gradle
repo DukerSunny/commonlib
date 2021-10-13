@@ -1,3 +1,3 @@
-rootProject.name = "commonlib"
+rootProject.name = "commonlibproject"
 include ':app'
 include ':commonlib'
